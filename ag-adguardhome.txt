@@ -3659,7 +3659,6 @@
 ||asimov-win.settings.data.microsoft.com.akadns.net^
 ||db5.vortex.data.microsoft.com.akadns.net^
 ||geo.vortex.data.microsoft.com.akadns.net^
-||whoami.akamai.net^
 ||aksb-a.akamaihd.net^
 ||appnext-a.akamaihd.net^
 ||blacktri-a.akamaihd.net^
