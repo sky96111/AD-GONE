@@ -1,10 +1,17 @@
 # AD-GONE
 
 #### anti-AD是目前中文区命中率最高的广告过滤列表，实现了精确的广告屏蔽和隐私保护。现已支持AdGuardHome，dnsmasq， Surge，Pi-Hole，SmartDNS等网络组件。anti-AD的多种输出格式，完全满足常见的广告屏蔽工具、广告过滤工具的要求，我们始终坚持尽可能的保障每种输出格式的广告过滤效果一致。
+#### AD-GONE过滤列表基于anti-AD，将额外提供Clash规则。同时，对于某些既是正常使用到的域名又是广告域名，AD-GONE将予以放行。通过细化规则分类，针对不通人群需求，对日常使用影响降至最低。
 
-#### AD-GONE过滤列表基于anti-AD，并将只提供AdGuardHome、Clash、dnsmasq规则。同时，对于某些既是正常使用到的域名又是广告域名，AD-GONE将予以放行，对日常使用影响降至最低。
+#### TODO
 
-## Special Thanks to
+- [ ] 移除anti-AD中对日常有影响的域名
+- [ ] Clash规则支持
+- [ ] 规则分类为宽容、严格
+- [ ] CI自动生成各规则
+- [ ] 标记失效的域名，定期检查，自动删除或回补
+
+#### Special Thanks to
 
 - [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD) - 主要过滤列表提供
 - [notracking/hosts-blocklists-scripts](https://github.com/notracking/hosts-blocklists-scripts) - 提供无效域名和无效hosts列表
