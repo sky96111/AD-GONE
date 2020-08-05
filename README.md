@@ -2,21 +2,7 @@
 
 #### anti-AD是目前中文区命中率最高的广告过滤列表，实现了精确的广告屏蔽和隐私保护。现已支持AdGuardHome，dnsmasq， Surge，Pi-Hole，SmartDNS等网络组件。anti-AD的多种输出格式，完全满足常见的广告屏蔽工具、广告过滤工具的要求，我们始终坚持尽可能的保障每种输出格式的广告过滤效果一致。
 
-#### AD-GONE过滤列表基于anti-AD，额外提供了Clash规则。同时，对于某些既是正常使用到的域名又是广告域名，AD-GONE将予以放行，对日常使用影响降至最低。
-
-本工具是通过域名解析层来屏蔽广告和保护隐私的，其将各大著名的hosts，ad filter lists，adblock list等的列表进行合并去重，再进行一系列的抽象化，例如主动剔除失效域名、easylist优化模糊匹配、增强的黑白名单机制等措施，最终生成期望的高命中率列表。
-
-## 快速使用(使用官网地址，速度更稳定)
-
-| 文件 	| raw 	| 官网地址 	| 适用于 	|
-| --------------------------------	|:------------------:	| ----------------	|---------------------------------------------	|
-| `adblock-for-dnsmasq.conf` 	| [link](https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/adblock-for-dnsmasq.conf) 	| [官网地址，更稳定](https://anti-ad.net/anti-ad-for-dnsmasq.conf) 	| dnsmasq及其衍生版本 	|
-| `anti-ad-easylist.txt` 	| [link](https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt) 	| [官网地址，更稳定](https://anti-ad.net/easylist.txt)	| AdGuardHome 	|
-| `anti-ad-domains.txt` 	| [link](https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt) 	| [官网地址，更稳定](https://anti-ad.net/domains.txt)	| Pi-Hole或其他。 	|
-| `anti-ad-surge.txt` 	| [link](https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt) 	| [官网地址，更稳定](https://anti-ad.net/surge.txt)	| Surge或其他工具。 	|
-| `anti-ad-smartdns.conf` 	| [link](https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-smartdns.conf) 	| [官网地址，更稳定](https://anti-ad.net/anti-ad-for-smartdns.conf) | SmartDNS 	|
-
-
+#### AD-GONE过滤列表基于anti-AD，将额外提供Clash规则。同时，对于某些既是正常使用到的域名又是广告域名，AD-GONE将予以放行，对日常使用影响降至最低。
 
 ## Special Thanks to
 
