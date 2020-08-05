@@ -20,6 +20,7 @@
 
 ## Special Thanks to
 
+- [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD) - 主要过滤列表提供
 - [notracking/hosts-blocklists-scripts](https://github.com/notracking/hosts-blocklists-scripts) - 提供无效域名和无效hosts列表
 - [Adblock Plus](https://adblockplus.org/) - 畅游清爽洁净的网络！
 - [neoFelhz/neohosts](https://github.com/neoFelhz/neohosts) - 自由·负责·克制 去广告 Hosts 项目
