@@ -34816,3 +34816,7 @@
 @@||tj.gov.cn^
 @@||sax.sina.com.cn^
 @@||news-app.abumedia.yql.yahoo.com^
+@@||events.gfe.nvidia.com^$important
+@@||whoami.akamai.net^$important
+@@||click.mz.simba.taobao.com^$important
+@@||self.events.data.microsoft.com^$important
